@@ -1,0 +1,1 @@
+Assume that we need to design an application with an “IDGeneratorMachine” object that is responsible for assigning IDs for university students in a single-threaded environment. If the machine is instantiated twice, then it is possible to have 2 overlapping IDs for 2 different objects; therefore, only one instance of the “IDGeneratorMachine” object should be instantiated.

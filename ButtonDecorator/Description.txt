@@ -1,0 +1,1 @@
+Recent Windows applications, such as Internet Explorer and Netscape Navigator, have a row of flat, unbordered buttons that highlight themselves with outline borders when you move your mouse over them. Some Windows programmers call this toolbar a CoolBar and the buttons CoolButtons. Design a coolButton that may be highlighted or slashed dynamically.
