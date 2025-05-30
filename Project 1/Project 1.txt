@@ -1,0 +1,3 @@
+Project 1
+
+This should be implemented using the decorator pattern and not the strategy pattern because the scrolling can be added both vertically and horizontally to the text view. If it could be implemented using the strategy pattern, then only one of the scrolling types could be applied at a time to the text view. 
