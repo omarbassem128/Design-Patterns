@@ -1,1 +1,1 @@
-Utilizing the design patterns that I have learned in software component design course. In depth project description can be found in this file    [Projects.pdf](https://github.com/user-attachments/files/20266424/Projects.pdf)
+Utilizing the design patterns that I have learned in software component design course. In depth description for each project can be found in this file    [Projects.pdf](https://github.com/user-attachments/files/20266424/Projects.pdf)
