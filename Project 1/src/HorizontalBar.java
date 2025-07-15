@@ -1,5 +1,6 @@
 public class HorizontalBar extends Decorator {
     TextView textview;
+    private double scrollposition;
     
     HorizontalBar(TextView textview){
         this.textview = textview;
@@ -7,14 +8,14 @@ public class HorizontalBar extends Decorator {
 
     @Override
     public String getDescription() {
-        return textview.getDescription() + "Horizontal Bar";
+        return textview.getDescription() + "Horizontal-Bar ";
     }
 
     public void setHorizontaScrollPosition(double pos){
-        scrollPosition = pos;
+        scrollposition = pos;
     }
 
     public double getHorizontalScrollPosition(){
-        return scrollPosition;
+        return scrollposition;
     }
 }
