@@ -4,14 +4,15 @@ public class Border extends Decorator {
     private String bordercolor;
 
     Border(TextView textview){
+        super(textview);
         this.textview = textview;
     }
 
-    public void setBorderwidth(double borderwidth) {
+    public void setBorderWidth(double borderwidth) {
         this.borderwidth = borderwidth;
     }
 
-    public void setBordercolor(String bordercolor) {
+    public void setBorderColor(String bordercolor) {
         this.bordercolor = bordercolor;
     }
 

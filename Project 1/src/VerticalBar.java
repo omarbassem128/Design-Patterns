@@ -3,6 +3,7 @@ public class VerticalBar extends Decorator {
     private double scrollposition;
     
     VerticalBar(TextView textview){
+        super(textview);
         this.textview = textview;
     }
 
@@ -11,7 +12,7 @@ public class VerticalBar extends Decorator {
         return textview.getDescription() + "Vertical-Bar ";
     }
 
-    public void enterVerticalScrollerPosition(double pos){
+    public void setVerticalScrollPosition(double pos){
         scrollposition = pos;
     }
 
