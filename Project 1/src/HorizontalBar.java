@@ -3,7 +3,6 @@ public class HorizontalBar extends Decorator {
     private double scrollposition;
     
     HorizontalBar(TextView textview){
-        super(textview);
         this.textview = textview;
     }
 

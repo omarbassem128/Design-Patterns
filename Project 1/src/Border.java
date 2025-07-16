@@ -1,23 +1,16 @@
 public class Border extends Decorator {
     TextView textview;
-    private double borderwidth;
-    private String bordercolor;
+    double borderwidth;
+    String bordercolor;
 
-    Border(TextView textview){
-        super(textview);
+    Border(TextView textview, double borderwidth, String bordercolor){
         this.textview = textview;
-    }
-
-    public void setBorderWidth(double borderwidth) {
         this.borderwidth = borderwidth;
-    }
-
-    public void setBorderColor(String bordercolor) {
         this.bordercolor = bordercolor;
     }
 
     @Override
     public String getDescription() {
-        return " border-width= "+ borderwidth + " border-color= " + bordercolor;
+        return textview.getDescription() + " border-width= "+ borderwidth + " border-color= " + bordercolor;
     }
 }
