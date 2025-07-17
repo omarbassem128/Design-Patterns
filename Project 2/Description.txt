@@ -1,1 +1,2 @@
 Strategy pattern ?
+Yes. Because The payment can be implemented using different ways/algorithms (cash, visa, cheque). So, we should separate what varies from what doesn't. 
