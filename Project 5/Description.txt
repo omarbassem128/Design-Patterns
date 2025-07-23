@@ -1,0 +1,1 @@
+This seems to require command pattern implementation. Due to the idea of having a command that needs to be executed based on a certain event. Still need to think about it.
