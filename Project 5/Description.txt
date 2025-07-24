@@ -1,1 +1,7 @@
 This seems to require command pattern implementation. Due to the idea of having a command that needs to be executed based on a certain event. Still need to think about it.
+
+After research, it seems that the most suitable pattern is called state pattern, 
+which is a pattern that I didn't take in university which is why I was struggling to decide on a pattern. 
+I was also thinking that the strategy can be suitable by defining behaviors that each robot can implement,
+ but I wasn't really convinced either because I think that there are no repetition of patterns in this file,
+  and I already implemented the strategy pattern in Project 2. 
