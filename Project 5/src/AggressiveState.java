@@ -1,7 +1,7 @@
-public class ScareAndRun extends State{
+public class AggressiveState extends State{
     public void robotReaction(boolean bool){
     if(bool)
-        System.out.println("Scaring...Running");
+        System.out.println("Attackkkk!!!!!");
     else
         System.out.println("No Robot Found");
     }

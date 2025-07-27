@@ -9,3 +9,5 @@ I was also thinking that the strategy can be suitable by defining behaviors that
   After thinking, this is a strategy pattern with a setState(). Because the current code doesn't implement the state pattern in the desired way,
   No state transitions to another state within the robotreaction() method in any of the concrete state classes, which means that these states are independent,
   they don't need one another, they are states/algorithms that are used to achieve the same thing, which is the the robot's reaction whenever he finds another robot.
+
+  Very glad that I learned exactly how the state pattern works, and that for the implementation to be a state pattern 

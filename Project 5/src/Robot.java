@@ -1,10 +1,13 @@
-public class Robot {
-    boolean otherrobotfound;
+public class Robot{
     State state;
-    public void otherRobotFoundSensor(boolean otherrobotfound){
-        this.otherrobotfound = otherrobotfound;
-    }
+    boolean otherrobotfound;
+
     public void setState(State state){
         this.state = state;
+    }
+
+    public void otherRobotFoundSensor(boolean otherrobotfound){
+        this.otherrobotfound = otherrobotfound;
+        state.robotReaction(this.otherrobotfound);
     }
 }

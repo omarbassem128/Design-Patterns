@@ -1,10 +1,8 @@
 public class Calm extends State{
-
-    @Override
-    public void robotReaction() {
-        if(robot.otherrobotfound)
-            System.out.println("ignore");
-        else
-            System.out.println("No Robot Found");
+    public void robotReaction(boolean bool){
+    if(bool)
+        System.out.println("Ignore");
+    else
+        System.out.println("No Robot Found");
     }
 }

@@ -1,4 +1,3 @@
 public abstract class State {
-    Robot robot;
-    public abstract void robotReaction();
+    public abstract void robotReaction(boolean bool);
 }
