@@ -1,1 +1,1 @@
-Applying the design patterns that I know to each project and learning new ones along the way. project requirements and in deprh description can be found here    [Projects.pdf](https://github.com/user-attachments/files/20266424/Projects.pdf)
+Applying the design patterns that I know to each project and learning new ones along the way. Requirements for each project and in depth description can be found here    [Projects.pdf](https://github.com/user-attachments/files/20266424/Projects.pdf)
