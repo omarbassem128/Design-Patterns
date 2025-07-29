@@ -1,4 +1,4 @@
-public class Calm extends State{
+public class Calm implements State{
     public void robotReaction(boolean bool){
     if(bool)
         System.out.println("Ignore");

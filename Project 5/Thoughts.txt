@@ -1,0 +1,16 @@
+This seems to require command pattern implementation. 
+Due to the idea of having a command that needs to be executed based on a certain event. 
+Still need to think about it.
+
+After research, it seems that the most suitable pattern is called state pattern, 
+which is a pattern that I didn't take in university which is why I was struggling to decide on a pattern. 
+I was also thinking that the strategy can be suitable by defining behaviors that each robot can implement,
+but I wasn't really convinced either because I think that there are no repetition of patterns in this file,
+and I already implemented the strategy pattern in Project 2. 
+
+After thinking, this is a strategy pattern with a setState(). Because the current code doesn't implement the state pattern in the desired way,
+No state transitions to another state within the robotreaction() method in any of the concrete state classes, which means that these states are independent,
+they don't need one another, they are states/algorithms that are used to achieve the same thing, which is the the robot's reaction whenever he finds another robot.
+
+Very glad that I learned exactly how the state pattern works, and that for the implementation to be a state pattern the states need to be dependent on one another.
+Meaning, each state requires other states to transition to based on a certain condition.

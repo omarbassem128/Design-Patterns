@@ -1,3 +1,3 @@
-public abstract class State {
-    public abstract void robotReaction(boolean bool);
+public interface State {
+    public void robotReaction(boolean bool);
 }

@@ -1,4 +1,4 @@
-public class AggressiveState extends State{
+public class AggressiveState implements State{
     public void robotReaction(boolean bool){
     if(bool)
         System.out.println("Attackkkk!!!!!");
