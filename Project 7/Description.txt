@@ -1,1 +1,1 @@
-Definitely singleton pattern. Because only one object should be created for data flow to be regulated correctly.
+Definitely singleton pattern. Because only one object should be created for data flow to be regulated correctly.    
