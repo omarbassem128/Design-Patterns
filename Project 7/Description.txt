@@ -1,1 +1,14 @@
 Definitely singleton pattern. Because only one object should be created for data flow to be regulated correctly.    
+
+
+The SpoolerEager implementation of the singleton pattern relies on the java virtual machine to create 
+the unique instance of the singleton when the class is loaded.
+This method is guaranteed to be thread safe, meaning that no second object will ever be created by mistake during runtime.
+
+
+The SpoolerLazy implementation is a bit more complex but it achieves the same thing as the SpoolerEager implementation,
+which is guaranteeing thread safety and no other objects being created from the singleton class.
+
+The difference between them is that the Eager implementation has the object created before the user can call it,
+while the Lazy implementation starts creating the object only when the user calls the function. In the end, they both
+essentially achieve the same thing, which is making sure that only one instance is created from the class.
